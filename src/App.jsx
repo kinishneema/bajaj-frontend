@@ -11,7 +11,7 @@ function App() {
     try {
       const parsedData = JSON.parse(jsonData);
       const result = await axios.post(
-        "https://bajaj-1-fbau.onrender.com/bfhl",
+        "https://bajaj-2-cknr.onrender.com/bfhl",
         parsedData
       );
       setResponseData(result.data);
